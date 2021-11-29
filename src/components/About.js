@@ -1,8 +1,9 @@
 const About = () => {
     return (
-        <div>
-            <h4>Version 1.0.0</h4>
-            <a href="/">Go Back</a>
+        <div className='container'>
+            <h2 style={{color:'steelblue',textAlign:'center'}}>Version 1.0.0</h2>
+            <div  style={{textAlign:'center'}}><a href="/">Go Back</a></div>
+            
         </div>
     )
 }
